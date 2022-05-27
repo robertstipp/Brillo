@@ -181,6 +181,15 @@ body {
     width: 100%;
     display: block; }
 
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    height: 1.75rem;
+    width: 1.75rem;
+    fill: var(--color-primary); }
+
 .container {
   max-width: 120rem;
   background-color: var(--color-grey-light-2);
@@ -208,6 +217,5 @@ body {
 
 .hotel-view {
   background-color: #fff;
-  background-color: orangered;
   flex: 1;
   height: 80rem; }
